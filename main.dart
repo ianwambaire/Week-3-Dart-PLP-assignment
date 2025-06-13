@@ -8,7 +8,7 @@ class studentAccount {
   //public getter methods to access the private properties
   String get name => _name;
   int get age => _age;
-  String get password => _password;
+  
 
   set age(int value) {
     if (value >= 18) {
